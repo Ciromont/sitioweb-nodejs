@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
 
         console.log(resultados);
 
-        res.render('productos', { title: 'Nuestros productos',Libros:resultados });
+    res.render('productos', { title: 'Nuestros productos',Libros:resultados });
 
 } );
 

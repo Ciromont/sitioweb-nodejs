@@ -7,9 +7,9 @@ router.get('/', function(req, res, next) {
 
     db.query("SELECT * FROM tblproductos",function(err,resultados){
 
-        console.log(resultados);
+    console.log(resultados);
 
-        res.render('productos', { title: 'Nuestros productos',Libros:resultados });
+    res.render('productos', { title: 'Nuestros productos',Libros:resultados });
 
 } );
 

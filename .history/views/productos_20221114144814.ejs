@@ -14,15 +14,13 @@
      
 
 
-        <div class="col-sm-4">
+        <div class="col-sm-6">
           <div class="card">
-
-            <img src="<%=Libros[libro].imagen%>" class="card-img-top" alt="...">
+            <img src="<%=Libros[libro].titulo%>" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title"><%=Libros[libro].titulo%> </h5>
               <p class="card-text"><%=Libros[libro].descripcion%></p>
-              <h5> $ <%=Libros[libro].precio%></h5>
-              
+              Precio: $ <%=Libros[libro].precio%>
               <a href="#" class="btn btn-primary">Comprar</a>
             </div>
           </div>
