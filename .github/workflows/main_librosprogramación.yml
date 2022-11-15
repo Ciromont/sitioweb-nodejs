@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'librosprogramación'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4613D78AB05947A98F9A2866AC1E0F29 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C50E297E7BB9416DBA6BAFAD502ABAD8 }}
           package: .
